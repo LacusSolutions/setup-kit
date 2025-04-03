@@ -1,0 +1,40 @@
+{
+  "name": "setup-kit",
+  "version": "0.0.0",
+  "description": "CLI tool to make it simpler to setup common project needs.",
+  "author": {
+    "name": "Julio L. Muller",
+    "url": "https://github.com/juliolmuller"
+  },
+  "keywords": [
+    "setup",
+    "config",
+    "eslint",
+    "prettier",
+    "lint",
+    "format",
+    "automation",
+    "husky",
+    "git-hooks",
+    "commitlint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliolmuller/setup-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/juliolmuller/setup-kit/issues"
+  },
+  "homepage": "https://github.com/juliolmuller/setup-kit#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
